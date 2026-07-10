@@ -1,6 +1,16 @@
 {
   "name": "scale-content-hq",
   "version": "0.1.0",
+  "description": "Open-source offline video editing planning workspace",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsirisMedici/scale-content-hq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OsirisMedici/scale-content-hq/issues"
+  },
+  "homepage": "https://github.com/OsirisMedici/scale-content-hq#readme",
   "private": true,
   "scripts": {
     "dev": "next dev",

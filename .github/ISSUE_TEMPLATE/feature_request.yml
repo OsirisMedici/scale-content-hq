@@ -1,0 +1,32 @@
+name: Feature request
+description: Propose an improvement to the editing-planning workflow
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Editing workflow problem
+      description: What currently takes too much time or creates confusion?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the result contributors should optimize for.
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Suggested approach
+      description: Share a possible interaction or implementation if you have one.
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: Project principles
+      options:
+        - label: This can work in an offline, self-hosted setup.
+          required: true
